@@ -1,0 +1,14 @@
+# comments
+(var a_variable (nil))
+(var another_var) # implicit nil
+
+(var shortest_uint (uint8 32))
+(var normal_uint (uint32 48))
+(var long_uint (uint64 82))
+
+(var normal_int (int32 79))
+(var long_int (int64 96))
+
+(var f (float 5.6))
+(var d (double 2.3e10))
+

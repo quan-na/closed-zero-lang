@@ -30,6 +30,32 @@ Eventhough (0) bear some similar in its syntax with LISP, it is not a LISP. Ther
 Data types
 ==========
 
+Primitive types
+---------------
+
+1. Integer
+
+Only 5 vatiation of integer type are supported:
+(int8 15)
+(int32 -150)
+(uint32 150)
+(int64 -1500)
+(uint64 1500)
+
+2. Real number
+
+(float 15.0e12)
+(double 15.0e24)
+
+3. Character
+
+Complex types
+-------------
+
+1. Array
+
+2. X-ple
+
 Variable
 ========
 
