@@ -1,14 +1,29 @@
 # comments
-(var a_variable (nil))
-(var another_var) # implicit nil
+(let a_variable (nil))
+(let implicit_nil)
 
-(var shortest_uint (uint8 32))
-(var normal_uint (uint32 48))
-(var long_uint (uint64 82))
+(let shortest_uint (ui8 32))
+(let normal_uint (ui32 48))
+(let long_uint (ui64 82))
 
-(var normal_int (int32 79))
-(var long_int (int64 96))
+(let normal_int (i32 79))
+(let long_int (i64 96))
+(let implicit_int32 67)
 
-(var f (float 5.6))
-(var d (double 2.3e10))
+(let f (float 5.6))
+(let d (double 2.3e10))
 
+(let an_array (array :length (i32 100) :of (i32 0)))
+(let cont_array (array :from (i64 1) :to (i64 100)))
+(let cont_step (array :from (ui8 0) :to (ui8 200) :step (ui8 2)))
+(let gen_array (nil)) # TODO
+
+(let a_xple (xple (ui8 8) (float 7.6) (array :lenght 200 :of (float 0.0))))
+
+(assign )
+
+(match )
+
+(swap )
+
+(fiber )
