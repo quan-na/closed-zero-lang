@@ -28,9 +28,13 @@ Draft
 
 ## Inline fiber
 
+## Chained inline fiber
+
 ## Lazy list evaluation
 
 ## Lazy evaluation
+
+## Yield/non-yield line break
 
 Preview
 =======
